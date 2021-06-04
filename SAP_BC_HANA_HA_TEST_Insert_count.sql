@@ -5,7 +5,7 @@ sid=`echo ${SID} | tr A-Z a-z`
 ADM_HOME=`cat /etc/passwd|grep ${sid}adm|awk -F: '{print $6}'`
 
 USER_ID=system
-PASSWD=Serp1234!
+PASSWD=*****
 
 #echo $SID $sid $ADM_HOME $PASSWD
 
